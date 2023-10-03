@@ -1,0 +1,47 @@
+name: http_age_generator
+description: "A new Flutter project."
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.0-140.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+  http: ^1.1.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+  animated_splash_screen: ^1.3.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  assets:
+    - assets/images/
+
+
+  uses-material-design: true
+
+fonts:
+  - family: Montserrat
+    fonts:
+      - asset: fonts/Montserrat-Italic-VariableFont_wght.ttf
+      - asset: fonts/Montserrat-VariableFont_wght.ttf
+  - family: YoungSerif
+    fonts:
+      - asset: fonts/YoungSerif-Regular.ttf
+        
